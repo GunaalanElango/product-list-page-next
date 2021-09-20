@@ -1,0 +1,16 @@
+.Wrapper {
+  width: 100%;
+  margin-top: 100px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .Wrapper {
+    width: 100%;
+    margin-top: 55px;
+    padding: 10px;
+    flex-direction: row;
+  }
+}

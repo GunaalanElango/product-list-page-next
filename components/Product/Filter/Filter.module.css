@@ -1,0 +1,84 @@
+.Filter {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 100%;
+  padding: 5px 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.Filter h4 {
+  margin: 0;
+}
+
+.FilterSection {
+  width: 100%;
+}
+
+.FilterSection p {
+  font-weight: bold;
+}
+
+.SortOptContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.SortOpt {
+  margin: 5px 0;
+  font-size: 0.9rem;
+  background-color: rgba(19, 116, 80, 0.1);
+  padding: 2px 8px;
+  border-radius: 2px;
+}
+
+.Active {
+  color: white;
+  background-color: #093d2a;
+}
+
+@media screen and (min-width: 768px) {
+  .Filter {
+    width: 20%;
+    margin-right: 10px;
+    align-self: flex-start;
+  }
+
+  .Filter h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .SortOpt {
+    margin: 5px 0;
+    font-size: 0.9rem;
+    background-color: rgba(19, 116, 80, 0.1);
+    padding: 5px 10px;
+    border-radius: 2px;
+  }
+
+  .SortOpt:hover {
+    cursor: pointer;
+  }
+
+  .Active {
+    color: white;
+    background-color: #093d2a;
+  }
+
+  .BrandContainer {
+    width: 100%;
+    margin: 8px 0;
+  }
+
+  .BrandNameContainer {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+  }
+
+  .BrandNameContainer input {
+    margin-right: 8px;
+  }
+}
